@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         pregunta: '¿Quiénes somos?',
         respuesta: 'https://www.youtube.com/watch?v=-GEnuQCEeiE',
@@ -12,5 +12,3 @@ const data = [
         respuesta: 'https://www.youtube.com/watch?v=-GEnuQCEeiE',
     },
 ];
-
-export default data;

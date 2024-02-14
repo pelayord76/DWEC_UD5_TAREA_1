@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // este componente define las secciones individuales del acordeon, muestra cada pregunta y, tras pulsar sobre la misma, su respuesta. recibe como parámetros la pregunta y la respuesta, que se los pasa el componente accordion.
 
-function AccordionItem({ pregunta, respuesta }) {
+export const AccordionItem = ({ pregunta, respuesta }) => {
   //variables para saber si un item está abierto o no y para establecer que lo esté si se requiere para aplicar los estilos que hacen que aparezcan y desaparezcan las respuestas.
   const [abierto, setAbierto] = useState(false);
 
@@ -24,6 +24,4 @@ function AccordionItem({ pregunta, respuesta }) {
       </div>
     </li>
   );
-}
-
-export default AccordionItem;
+};
